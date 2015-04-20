@@ -1,16 +1,26 @@
 /* Typography */
 
-.home body {
-	background: #8caf74;
+h1.home {
+	background: white;
+	margin: 25px;
+	padding: 25px;
+	font-family: 'Homemade Apple', cursive;
+}
+
+body.home {
+	background: #AED6B8;
+	text-align: center;
+	font-size: 3em;
 }
 
 .home img {
-		width:320px;
+		width:75%;
 	}
+
 
 /* Bio & Resume */
 
-.bio.container {
+.container {
 	width: 50%;
 	margin: 0 auto;
 }
@@ -21,18 +31,22 @@
 	text-align: center;
 }
 
-.bio p, li {
+p, li {
 	font-family: 'Maven Pro', sans-serif;
 }
 
-.bio.dropcap {
-	font-size: 5em;
+.dropcap {
+	font-size: 4em;
 	background: #B03838;
 	color: white;
 	padding: .5em;
 	margin: .25em;
 	float: left;
 	border-radius: 25%;
+}
+
+h4 {
+	text-align: center;
 }
 
 /* Portfolio */
